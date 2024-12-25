@@ -33,7 +33,6 @@ public class DFS {
         graph.put(4, Arrays.asList(2));
         graph.put(5, Arrays.asList(2));
         graph.put(6, Arrays.asList(3));
-        graph.put(7, Arrays.asList(3,1));
 
         // Perform BFS starting from vertex 1
         System.out.println("BFS Traversal:");
