@@ -23,9 +23,9 @@ public class BFS {
             for (int v: graph.get(node)){
                 if (!visited.contains(v)) {     // add into queue only if not visited earlier to prevent repeated traversal
                     q.add(v);
+                    visited.add(v);
                 }
             }
-            visited.addAll(graph.get(node));
         }
     }
     public static void main(String[] args) {

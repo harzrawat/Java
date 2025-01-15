@@ -1,6 +1,6 @@
 package com.sitare.CRUD_operations;
 
-import com.mysql.cj.jdbc.Driver;
+//import com.mysql.cj.jdbc.Driver;
 
 import java.sql.*;
 import java.util.Locale;
